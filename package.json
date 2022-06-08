@@ -16,7 +16,9 @@
     "express-validator": "^6.4.0",
     "lodash": "^4.17.15",
     "moment": "^2.25.3",
-    "moment-timezone": "^0.5.28"
+    "moment-timezone": "^0.5.28",
+    "pg-copy-streams": "^3.0.0",
+    "pg-promise": "^10.5.0"
   },
   "author": "Suresh Kumar",
   "license": "ISC"
