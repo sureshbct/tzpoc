@@ -1,5 +1,5 @@
 const TAG = '[test-service]'
-const { db } = require('../lib/db-postgres')
+const { db } = require('../db-postgres')
 
 
 function _log (msg, level = 'log') {
