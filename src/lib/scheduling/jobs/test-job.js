@@ -2,11 +2,6 @@ const testService = require('../../service/test-service')
 
 async function run () {
 
-  const startDate = new Date();
-
-  console.log("DATE ===>"+startDate)
-  console.log(startDate)
-
   await testService.run()
 }
 
