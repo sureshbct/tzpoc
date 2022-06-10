@@ -15,6 +15,9 @@ async function run () {
 
     const currentDateDB = await db.one('select current_date')
     console.log(`Current Date DB = ${JSON.stringify(currentDateDB)}`)
+    
+    const nowDB = await db.one('select now()')
+    console.log(`NOW DB = ${JSON.stringify(nowDB)}`)
 
 
     for(var i=0;i<10000;i++) {
